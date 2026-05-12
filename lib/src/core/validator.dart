@@ -5,7 +5,11 @@ import '../validators/indian_validator.dart';
 import '../validators/required_validator.dart';
 import '../regex/regex_patterns.dart';
 
+/// A utility class providing various validation methods for common input fields.
 class Validator {
+  /// Private constructor to prevent instantiation.
+  Validator._();
+
   /// Validates if the field is not empty.
   static String? required(dynamic value, {String? message}) =>
       RequiredValidator.validate(value, message: message);

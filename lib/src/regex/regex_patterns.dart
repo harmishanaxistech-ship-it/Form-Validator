@@ -1,4 +1,8 @@
+/// A utility class containing common regular expression patterns for validation.
 class RegexPatterns {
+  /// Private constructor to prevent instantiation.
+  RegexPatterns._();
+
   /// Regular expression for email validation.
   static final RegExp email = RegExp(
     r"^[a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+",

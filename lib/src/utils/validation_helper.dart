@@ -1,4 +1,8 @@
+/// A helper class for managing form-wide validation logic.
 class FormValidator {
+  /// Private constructor to prevent instantiation.
+  FormValidator._();
+
   /// Validates a list of validation results and returns the first error found.
   /// If all are valid (null), returns null.
   static String? validate(List<String?> validations) {
@@ -11,6 +15,7 @@ class FormValidator {
   }
 }
 
+/// Extension methods for [String] to perform common validations.
 extension ValidatorStringExtension on String {
   /// Returns true if the string is a valid email.
   bool get isValidEmail {

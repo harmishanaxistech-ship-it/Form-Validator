@@ -1,3 +1,8 @@
+## 1.0.1
+
+* Added missing documentation for public APIs.
+* Added an example application.
+
 ## 1.0.0
 
 * Initial release of form_sense.
