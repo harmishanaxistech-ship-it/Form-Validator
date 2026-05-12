@@ -1,4 +1,4 @@
-library smart_form_validator;
+library form_sense;
 
 export 'src/core/validator.dart';
 export 'src/utils/validation_helper.dart';

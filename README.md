@@ -1,4 +1,4 @@
-# smart_form_validator
+# form_sense
 
 A production-ready Flutter package for validating forms and user input with a clean and simple API.
 
@@ -17,8 +17,8 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  smart_form_validator:
-    path: ./ # Or use the version from pub.dev once published
+  form_sense:
+    path: ./
 ```
 
 ## Usage
